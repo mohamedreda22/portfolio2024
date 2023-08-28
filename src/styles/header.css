@@ -1,0 +1,28 @@
+.header {
+    background-color: #282c34;
+    min-height: 12vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: calc(10px + 2vmin);
+    color: #ee0000; 
+    padding: 0 20px 0 0 ;
+
+}
+
+.header img {
+    height: 13vmin;
+    pointer-events: none;
+    margin-right: 350px;
+}
+
+.header a {
+    text-decoration: none; 
+    color: white; 
+    margin-left: 20px; 
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #ff9900; 
+}
