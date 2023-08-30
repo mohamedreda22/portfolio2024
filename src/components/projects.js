@@ -1,6 +1,7 @@
 import Card from "./card";
 import "../styles/App.css";
 import React from "react";
+import projectsdata from "../data/projectsdata";
 
 export default function Projects() {
     return (
@@ -9,16 +10,20 @@ export default function Projects() {
         <h3>Here are some of my projects</h3></div>
 
         <div className="card-container">
-            <Card
-                title="Card Title 1"
-                description="This is the description for card 1."
-                image="https://via.placeholder.com/150"
-            />
-            <Card
-                title="Card Title 2"
-                description="This is the description for card 2."
-                image="https://via.placeholder.com/150"
-            />
+            {projectsdata.map((project) => (
+                <Card
+                    key={project.id}
+                    title={project.title}
+                    description={project.description}
+                    image={project.image}
+                    link={project.link}
+                    live={project.live}
+                />
+            ))}
+
+       
+
+
         </div>
         </div>
     );}

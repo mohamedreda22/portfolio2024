@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/intro.css";
-import imageProfile from "../imgprofile.jpg";
+import imageProfile from "../assets/imgprofile.jpg";
 export default function Intro() {
     return (
         <div className="intro">
