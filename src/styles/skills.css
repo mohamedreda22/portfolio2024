@@ -1,69 +1,61 @@
 .skills {
     text-align: center;
-    padding: 40px 0;
-    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
-
-.skills h1 {
+  
+  .skills h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #333;
-}
-
-.skills h3 {
+  }
+  
+  .skills h3 {
     font-size: 1.2rem;
-    margin-bottom: 30px;
     color: #666;
-}
-
-.skills-container {
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-}
+  }
+  
+  .skill {
+    flex: 0 0 calc(25% - 20px);
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-.skill {
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    background-color: #ffffff;
-    width: calc(33.33% - 20px);
-    display: inline-block;
-    vertical-align: top;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    box-sizing: border-box;
-}
+  }
+  
+  .skill h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
 
-.skill:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-.skill-bar {
-    background-color: #f0f0f0;
-    border-radius: 6px;
-    height: 14px;
-    margin-top: 10px;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #b6e7a8;
+    border-radius: 5px;
     position: relative;
-}
 
-.skill-bar p {
-    position: absolute;
-    top: -20px;
-    right: 0;
-    font-size: 1rem;
-    color: #333;
-}
-
-.skill-bar::after {
-    content: "";
-    display: block;
-    background-color: #4caf50;
-    border-radius: 6px;
+  }
+  
+  .skill-progress {
     height: 100%;
-    width: 70%; 
+    border-radius: 5px;
+    background-color: #4caf50;
+ }
+  
+  .skill p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #777;
 }
+  

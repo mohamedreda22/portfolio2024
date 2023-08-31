@@ -2,7 +2,7 @@ const skillsdata = [
     {
         id: 1,
         name: 'HTML',
-        level: 90,
+        level: 100,
     },
     {
         id: 2,

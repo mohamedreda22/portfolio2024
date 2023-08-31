@@ -5,6 +5,7 @@ export default function Intro() {
     return (
         <div className="intro">
             <div className="intro-content">
+                <section id="intro"></section>
                 <h1>
                     Hi, I'm <span className="name">Mohamed Reda</span>
                 </h1>
